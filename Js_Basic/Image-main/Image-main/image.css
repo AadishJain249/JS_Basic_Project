@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fef9f8;
+}
+
+.main {
+    width: 660px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    font-family: cursive;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    transition: ease 0.5s;
+}
+
+.img img {
+    object-fit: cover;
+}
+
+.img {
+    margin: 10px;
+    height: 200px;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.dots {}
+
+.dot:hover {
+    background-color: lightsteelblue;
+}
+
+.dot.active {
+    background: rgba(0, 0, 0, 0.5);
+}

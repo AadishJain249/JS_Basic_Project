@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    background: url(../clock/itachi.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 45px;
+    color: #E75480;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 40px 0px 20px;
+    opacity: 1;
+    font-family: cursive;
+}
+
+.main {}
+
+.count {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    display: inline-block;
+    opacity: 1;
+}
+
+.count>div {
+    background: #101010;
+    padding: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.count>div span {
+    padding: 50px;
+    border-radius: 3px;
+    background: #303030;
+    display: inline-block;
+}
+
+.small {
+    padding-top: 5px;
+    font-size: 18px;
+    opacity: 1;
+}
